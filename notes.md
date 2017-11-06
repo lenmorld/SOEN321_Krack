@@ -1,8 +1,11 @@
 ######### step 1 to 4 #################
 
-# to find out Wifi driver #
+#### to find out Wifi driver 
 
 ls /sys/class/net/wlan0/device/driver/module/drivers/
+
+
+#### step 3 ###########
 
 sudo wpa_supplicant -D nl80211 -i wlan0 -c network.conf
 
@@ -29,6 +32,8 @@ See README for more details.
 
 
 Interactive mode
+
+```
 
 > 
 > status
@@ -72,6 +77,7 @@ f0:82:61:49:31:4c	2437	-94	[WPA2-PSK-CCMP][WPS][ESS]	BELL341
 90:72:82:f1:f4:66	2412	-90	[WPA2-PSK-CCMP][WPS][ESS]	BELL600
 <3>CTRL-EVENT-SCAN-STARTED 
 
+```
 
 ################################
 
