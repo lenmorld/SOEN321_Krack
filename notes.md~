@@ -13,7 +13,7 @@ sudo rm /var/run/wpa_supplicant/wlan0
 
 
 
-fails at roaming wifi-ssid (dlink)
+fails at roaming
 > roam 00:26:5a:f1:04:de
 
 FAIL
