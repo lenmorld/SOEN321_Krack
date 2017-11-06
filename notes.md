@@ -1,0 +1,19 @@
+
+ls /sys/class/net/wlan0/device/driver/module/drivers/
+
+sudo wpa_supplicant -D nl80211 -i wlan0 -c network.conf
+
+
+lenmor@lubuntu:~/SOEN421/krackattacks-test-ap-ft$ sudo wpa_supplicant -D nl80211 -i wlan0 -c network.conf
+Successfully initialized wpa_supplicant
+wlan0: CTRL-EVENT-SCAN-STARTED 
+
+to delete currenly running wpa_supplicant
+sudo rm /var/run/wpa_supplicant/wlan0
+
+
+
+fails at roaming
+> roam 00:26:5a:f1:04:de
+FAIL
+
